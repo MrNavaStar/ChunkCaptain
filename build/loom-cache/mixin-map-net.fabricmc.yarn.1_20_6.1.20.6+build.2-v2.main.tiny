@@ -1,0 +1,7 @@
+v1	named	intermediary
+FIELD	me/mrnavastar/chunkcaptain/mixin/ThreadedAnvilChunkStorageMixin	Lit/unimi/dsi/fastutil/longs/LongSet;	unloadedChunks	field_17221
+FIELD	me/mrnavastar/chunkcaptain/mixin/ThreadedAnvilChunkStorageMixin	Lnet/minecraft/server/world/ThreadedAnvilChunkStorage$TicketManager;	ticketManager	field_17228
+FIELD	me/mrnavastar/chunkcaptain/mixin/ThreadedAnvilChunkStorageMixin	Lnet/minecraft/server/world/ServerWorld;	world	field_17214
+FIELD	me/mrnavastar/chunkcaptain/mixin/ChunkTicketManagerMixin	Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;	ticketsByPosition	field_13895
+METHOD	me/mrnavastar/chunkcaptain/mixin/ThreadedAnvilChunkStorageMixin	(J)Lnet/minecraft/server/world/ChunkHolder;	getChunkHolder	method_17216
+METHOD	me/mrnavastar/chunkcaptain/mixin/ThreadedAnvilChunkStorageMixin	(Lnet/minecraft/util/math/ChunkPos;)Ljava/util/List;	getPlayersWatchingChunk	method_37907

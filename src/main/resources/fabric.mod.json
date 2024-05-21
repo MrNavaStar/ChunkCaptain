@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkcaptain",
+  "version": "debug-build",
+  "name": "ChunkCaptain",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/MrNavaStar/ChunkCaptain"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["me.mrnavastar.chunkcaptain.ChunkCaptain"]
+  },
+  "mixins": [
+    "chunkcaptain.mixins.json"
+  ],
+  "accessWidener": "chunkcaptain.accesswidener",
+  "depends": {
+    "fabric": "*"
+  }
+}

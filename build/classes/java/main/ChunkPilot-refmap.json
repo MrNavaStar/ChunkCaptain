@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "me/mrnavastar/chunkcaptain/mixin/ThreadedAnvilChunkStorageMixin": {
+      "unloadChunks": "Lnet/minecraft/class_3898;method_20605(Ljava/util/function/BooleanSupplier;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "me/mrnavastar/chunkcaptain/mixin/ThreadedAnvilChunkStorageMixin": {
+        "unloadChunks": "Lnet/minecraft/class_3898;method_20605(Ljava/util/function/BooleanSupplier;)V"
+      }
+    }
+  }
+}
