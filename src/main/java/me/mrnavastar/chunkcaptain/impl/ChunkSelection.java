@@ -36,6 +36,17 @@ public class ChunkSelection implements Cloneable {
         return data.size();
     }
 
+    public ChunkSelection join(ChunkSelection selection) {
+        if (selection.world != world) return this;
+
+        selection.data.forEach(chunk -> {
+            NbtCompound c = (NbtCompound) chunk;
+
+        });
+
+        return this;
+    }
+
     //TODO: Make this work lol
     public void shuffle() {
         /*List<ChunkPos> positions = new ArrayList<>();
