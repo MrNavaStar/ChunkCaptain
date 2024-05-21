@@ -68,7 +68,7 @@ public abstract class ThreadedAnvilChunkStorageMixin implements ChunkSwapper {
 
         Chunk chunk = chunksToSend.getFirst();
         getPlayersWatchingChunk(chunk.getPos()).forEach(playerEntity -> {
-            //playerEntity.networkHandler.sendPacket(new UnloadChunkS2CPacket(chunk.getPos()));
+            playerEntity.networkHandler.sendPacket(new UnloadChunkS2CPacket(chunk.getPos()));
             playerEntity.networkHandler.sendPacket(new ChunkDataS2CPacket(((WrapperProtoChunk) chunk).getWrappedChunk(), world.getLightingProvider(), null, null));
         });
     }
